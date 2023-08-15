@@ -1,0 +1,136 @@
+#principal{
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+}
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+    font-size: 55px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+header h2{
+    
+    color: #5F62AB;
+}
+.logo{
+    margin-right: 20px;
+    width: 170px;
+    height: 170px;
+}
+/************************nav*******************/
+nav{
+   /* margin:0 10px;*/
+    padding: 5px ;
+    background-color: #333;
+}
+
+nav>ul{
+    list-style: none;
+    text-align: center;
+}
+nav>ul>li{
+    display: inline;
+    padding: 20px;
+}
+nav ul li a:hover {
+    color: #1E90FF; /* Color cuando el mouse pasa por encima */
+  }
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+main{
+  /*  width: 85%;
+    margin: 0 auto;*/
+    font-size: 20px;
+}
+
+
+/*-----------------------footer ---------------------------------------*/
+footer{
+    padding: 20px 0;
+    background-color: #333;
+    text-align: left;
+    font-size: 15px;
+    display: inline;
+    color: aliceblue;
+}
+footer nav ul li{
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+footer>a:hover {
+    color: #1E90FF; /* Color cuando el mouse pasa por encima */
+  }
+  /*-----------------------section--------------------------------*/
+section{
+    background-color: #5F62AB;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    min-height: 100%;
+}
+
+section article{
+  align-items: center;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+section h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1D2066;
+}
+section h1{
+    font-size: 40px;
+    color: white;
+}
+
+section img{
+    width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+ }
+/*------------------ASIDEEEEEEEEEEEEEEEE----------------------------------------------*/
+aside {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    border-top: #333;
+    align-items: center; /* Centrar horizontalmente */
+    height: 1000px; /* Opcional: ajusta la altura del aside*/ 
+    width: 20%;
+    background-color: #f0f0f0;
+    overflow: auto;
+    
+  }
+
+  aside p{
+    text-align: center;
+}
+  .productos .producto + .producto {
+    border-top: 1px solid #5F62AB; 
+    padding-top: 20px; 
+    margin-top: 20px;
+  }
+  aside img{
+    width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  }
+
+  main{
+    display: flex;
+  }
