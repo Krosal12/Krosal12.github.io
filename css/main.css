@@ -1,0 +1,154 @@
+#principal{
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+}
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+    font-size: 55px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header h2{
+    color: #5F62AB;
+}
+.logo{
+    width: 170px;
+    height: 170px;
+    margin-right: 35%;
+}
+/************************nav*******************/
+nav{
+   /* margin:0 10px;*/
+    padding: 5px ;
+    background-color: #333;
+}
+
+nav>ul{
+    list-style: none;
+    text-align: center;
+}
+nav>ul>li{
+    display: inline;
+    padding: 20px;
+}
+nav ul li a:hover {
+    color: #1E90FF; /* Color cuando el mouse pasa por encima */
+  }
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+main{
+  /*  width: 85%;
+    margin: 0 auto;*/
+    font-size: 20px;
+}
+
+
+/*-----------------------footer ---------------------------------------*/
+footer{
+    padding: 20px 0;
+    background-color: #333;
+    text-align: left;
+    font-size: 15px;
+    display: inline;
+    color: aliceblue;
+}
+footer nav ul li{
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+footer>a:hover {
+    color: #1E90FF; /* Color cuando el mouse pasa por encima */
+  }
+  /*-----------------------section--------------------------------*/
+section{
+    float: left;
+    background-color: #5F62AB;
+    height: 600px;
+    width: 80%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section article{
+  align-items: center;
+  margin: 2%;
+}
+
+.productos_section{
+  justify-content: center;
+   align-items: center;
+    font-family: 'Komika Axis';
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.contenido_titulos{
+  justify-content: center;
+   align-items: center;
+    font-family: 'Komika Axis';
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+section h2{
+  color: #1D2066;
+}
+section h1{
+    font-size: 40px;
+    color: white;
+ }
+.contenido_titulos img{
+  width: 100px;
+  height: 100px;
+}
+article img{
+width: 200px;
+height: 300px;
+border: 2px solid black;
+border-radius: 10px;
+}
+
+/*------------------ASIDEEEEEEEEEEEEEEEE----------------------------------------------*/
+aside {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    border-top: #333;
+    align-items: center; /* Centrar horizontalmente */
+    height: 600px; /* Opcional: ajusta la altura del aside */
+    width: 20%;
+    background-color: #f0f0f0;
+    overflow: auto;
+  }
+  aside::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  aside::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista de la barra de desplazamiento */
+  }
+  
+  aside::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del pulgar (la parte arrastrable de la barra) */
+    border-radius: 5px; /* Borde redondeado del pulgar */
+  }
+  
+  aside::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del pulgar cuando se pasa el mouse por encima */
+  }
+
+  aside p{
+    text-align: center;
+}
+  .productos .producto + .producto {
+    border-top: 1px solid #5F62AB; /* Línea de separación entre productos */
+    padding-top: 20px; /* Espaciado adicional entre productos */
+    margin-top: 20px; /* Espaciado entre productos */
+  }
